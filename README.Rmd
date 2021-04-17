@@ -1,0 +1,57 @@
+---
+output: github_document
+---
+
+# List of projects ![GitHub last commit](https://img.shields.io/github/last-commit/gvegayon/projects)
+
+A continuous work in progress, you can find more information about my work
+[here](https://ggvy.cl).
+
+```{r aux, echo=FALSE}
+#' Function to read yaml header in markdown documents.
+yaml_header <- function(fn) {
+  x   <- readLines(fn, warn = FALSE)
+ 
+  ans <- structure(
+    gsub("^[a-zA-Z0-9_ ]+[:]\\s*", "", x),
+    names = gsub("[:].*", "", x)
+  )
+  
+  ans[ans==""] <- NA_character_
+  as.list(ans)
+}
+# yaml_header("20160919-reproducible-research/README.md")
+
+```
+
+
+```{r table-prep, echo=FALSE, results='hide'}
+
+ymls <- list.files(".", full.names = TRUE, pattern = "[.]yml$")
+details <- lapply(ymls, yaml_header)
+
+# Which have contents?
+idx <- sapply(details, length) > 0
+details <- details[idx]
+
+# Building the table
+tab <- data.frame(
+  Title = sprintf(
+    "<a href=\"%s\" target=\"_blank\" ><strong>%s</strong></a>",
+    sapply(details, "[[", "url"),
+    sapply(details, "[[", "name")
+    ),
+  Type = sapply(details, "[[", "type"),
+  stringsAsFactors = FALSE
+)
+```
+
+```{r tab-print, results='asis', echo=FALSE}
+knitr::kable(tab)
+```
+
+
+
+
+
+
