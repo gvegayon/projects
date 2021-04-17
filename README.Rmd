@@ -4,7 +4,9 @@ output: github_document
 
 # List of projects ![GitHub last commit](https://img.shields.io/github/last-commit/gvegayon/projects)
 
-A continuous work in progress, you can find more information about my work
+A continuous work in progress, this repo is simply a shortcut for some of my most
+relevant projects. While most of these are software packages, some include visualization
+experiments and educational projects. You can find more information about my work
 [here](https://ggvy.cl).
 
 ```{r aux, echo=FALSE}

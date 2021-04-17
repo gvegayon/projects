@@ -1,8 +1,10 @@
 
 # List of projects ![GitHub last commit](https://img.shields.io/github/last-commit/gvegayon/projects)
 
-A continuous work in progress, you can find more information about my
-work [here](https://ggvy.cl).
+A continuous work in progress, this repo is simply a shortcut for some
+of my most relevant projects. While most of these are software packages,
+some include visualization experiments and educational projects. You can
+find more information about my work [here](https://ggvy.cl).
 
 | Title                                                                                                                                                                                     | Type      |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -29,8 +31,8 @@ work [here](https://ggvy.cl).
 | <a href="https://github.com/gvegayon/rgexf" target="_blank" ><strong>Create, read and write GEXF (Graph Exchange XML Format) graph files (used in Gephi and others) in R</strong></a>     | software  |
 | <a href="https://github.com/USCbiostats/slurmR" target="_blank" ><strong>slurmR: A Lightweight Wrapper for Slurm</strong></a>                                                             | software  |
 | <a href="https://github.com/gvegayon/taller_sna " target="_blank" ><strong>Análisis de Redes Sociales</strong></a>                                                                        | educ      |
-| <a href="hhttps://github.com/gvegayon/twinkle" target="_blank" ><strong>‘twinkle: How I wonder what you are’</strong></a>                                                                 | software  |
-| <a href="https://github.com/gvegayon/twitterreport" target="_blank" ><strong>NULL</strong></a>                                                                                            | software  |
+| <a href="https://github.com/gvegayon/twinkle" target="_blank" ><strong>twinkle: How I wonder what you are</strong></a>                                                                    | software  |
+| <a href="https://github.com/gvegayon/twitterreport" target="_blank" ><strong>Out-of-the-box analysis and reporting tools for twitter</strong></a>                                         | software  |
 | <a href="https://networkanalysis.usc.edu/uscnetworks2020/" target="_blank" ><strong>ANN-CANA-ISI Network Research Meeting </strong></a>                                                   | community |
 | <a href="https://networkanalysis.usc.edu/ " target="_blank" ><strong>‘USC Networks 2021: Network Science for Building Resilient Communities’</strong></a>                                 | community |
 | <a href="https://www.meetup.com/userchile/" target="_blank" ><strong>Grupo de Usuarios de R en Chile</strong></a>                                                                         | community |
