@@ -48,8 +48,16 @@ tab <- data.frame(
 )
 ```
 
+## Community, Education, and Data Viz
+
 ```{r tab-print, results='asis', echo=FALSE}
-knitr::kable(tab)
+knitr::kable(tab[tab$Type != "software",])
+```
+
+## Software Projects
+
+```{r tab-print-2, results='asis', echo=FALSE}
+knitr::kable(tab[tab$Type == "software",])
 ```
 
 
